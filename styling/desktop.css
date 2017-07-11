@@ -1,0 +1,99 @@
+div.header {
+	height: 44px;
+}
+
+a.white-button {
+	background: #FFFFFF;
+	padding: 20px 30px;
+	color: #000000;
+}
+
+a.white-button:hover {
+	background: #D3D3D3;
+}
+
+a.logo {
+	padding: 0;
+	margin: 0;
+	letter-spacing: 2px;
+	font-size: 40px;
+	color: #000000;
+}
+
+ul.navigation {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	border: 0;
+}
+
+ul.navigation li {
+	margin: -15px 0;
+	top: 0;
+	float: right;
+	overflow: hidden;
+}
+
+ul.navigation li a {
+	padding: 30px 30px;
+	margin: 0;
+	display: block;
+	background: #E0E0E0;
+	color: #000000;
+}
+
+ul.navigation li a:hover {
+	background: #C0C0C0;
+}
+
+table.three-box {
+	width: 100%;
+	border: 0;
+}
+
+table.three-box tr td {
+	max-width: 33%;
+	width: 33%;
+	border-left: 1px solid #AAAAAA;
+	text-align: center;
+	padding: 30px 0px;
+}
+
+table.three-box tr td:nth-child(1) {
+	border-left: none;
+}
+
+img.tb-img {
+	width: 35%;
+}
+
+ul.project-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.project-list li {
+	overflow: hidden;
+	border-bottom: 1px solid #AAAAAA;
+	padding: 20px;
+}
+
+ul.project-list li:hover {
+	background: #F0F0F0;
+	cursor: pointer;
+}
+
+ul.project-list li:last-child {
+	border-bottom: none;
+}
+
+ul.project-list li img {
+	width: 150px;
+}
+
+ul.project-list li div.project-text {
+	float: right;
+	text-align: right;
+	max-width: 50%;
+}

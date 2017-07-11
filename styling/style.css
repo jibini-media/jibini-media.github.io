@@ -1,0 +1,88 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	letter-spacing: 1px;
+}
+
+.fixed-bg {
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div#banner p.banner-head {
+	font-size: 40pt;
+	font-weight: bold;
+	line-height: 0;
+}
+
+div#banner p.banner-subhead {
+	font-size: 15pt;
+	padding-bottom: 10px;
+}
+
+div#banner {
+	display: table;
+	text-align: center;
+	min-height: 300px;
+	width: 100%;
+	color: white;
+}
+
+div#banner span.banner-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div.content, div.header, div.footer {
+	padding: 15px 50px;
+}
+
+div.content {
+	background: #F0F0F0;
+}
+
+div.open-gradient {
+	border: 0;
+	border-bottom: 10px solid;
+	-webkit-border-image: 
+		-webkit-gradient(linear, 100% 0, 0 0, from(#C0C0C0), to(#F0F0F0)) 100% 1;
+	-webkit-border-image: 
+		-webkit-linear-gradient(top, #C0C0C0, #F0F0F0) 100% 1;
+	-o-border-image:
+		-o-linear-gradient(top, #C0C0C0, #F0F0F0) 100% 1;
+	-moz-border-image:
+		-moz-linear-gradient(top, #C0C0C0, #F0F0F0) 100% 1;
+}
+
+div.close-gradient {
+	border: 0;
+	border-top: 10px solid;
+	-webkit-border-image: 
+		-webkit-gradient(linear, 100% 0, 0 0, from(#F0F0F0), to(#C0C0C0)) 100% 1;
+	-webkit-border-image: 
+		-webkit-linear-gradient(top, #F0F0F0, #C0C0C0) 100% 1;
+	-o-border-image:
+		-o-linear-gradient(top, #F0F0F0, #C0C0C0) 100% 1;
+	-moz-border-image:
+		-moz-linear-gradient(top, #F0F0F0, #C0C0C0) 100% 1;
+}
+
+div.header {
+	overflow: hidden;
+}
+
+div.footer {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #C0C0C0;
+}
